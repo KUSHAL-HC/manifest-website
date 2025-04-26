@@ -1,0 +1,17 @@
+.sixth-row
+{
+ display:flex;
+ justify-content:end;
+ padding-top:10px;
+ padding-bottom:10px;
+ border-bottom-width:1px;
+ border-bottom-style:solid;
+}
+.amount-in-word
+{
+  color:gray;
+}
+.indian-rupee
+{
+  color:black;
+}

@@ -1,0 +1,43 @@
+.fifth-row
+{
+  display:flex;
+  justify-content:space-between;
+  margin-top:40px;
+  border-style:solid;
+  border-width:1px;
+  border-color:gray;
+  display:flex;
+  overflow: hidden;
+  border-radius:8px;
+}
+.fifth-row-left
+{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px;
+}
+.fifth-row-right
+{
+  font-weight:bold;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-left:5px;
+  padding-right:5px;
+  background-color:rgb(213, 236, 213);
+}
+.total-last
+{
+  font-weight:bold;
+  margin:0;
+}
+.total-last2
+{
+  margin-top:5px;
+  color:gray;
+}
+.total-pay-left
+{
+  display:block;
+}

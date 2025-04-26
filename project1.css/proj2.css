@@ -1,0 +1,110 @@
+.second-row
+{
+  display:flex;
+  flex:1;
+  justify-content:center;
+  align-items:center;
+  padding:10px;
+  column-gap:20px;
+  height:160px;
+  border-bottom-width:1px;
+  border-bottom-style:dashed;
+  border-bottom-color:rgb(181, 181, 181);
+}
+p
+{
+  margin-top:10px;
+}
+.summary-row
+{
+  display:block;
+  flex:1;
+  align-items:center;
+}
+.summary
+{
+  font-weight:bold;
+  color:rgb(101, 96, 96);
+}
+.detail
+{
+  color:gray;
+  display:flex;
+}
+.quest
+{
+  display:flex;
+  flex:1;
+  max-width:150px;
+}
+.answ
+{
+  color:black;
+}
+.payment-detail
+{
+  border-width:1px;
+  border-style:solid;
+  border-color:rgb(224, 222, 222);
+  width:200px;
+  height:140px;
+  border-radius:8px;
+  overflow: hidden;
+}
+.container
+{
+  display:flex;
+  padding:10px;
+  background-color:rgb(225, 248, 225);
+  border-bottom-style:dotted;
+  border-bottom-width:1px;
+  border-bottom-color:rgb(182, 182, 182);
+}
+.rs
+{
+  font-size:20px;
+  margin-bottom:0;
+}
+.pay
+{
+  margin-top:0;
+  font-size:10px;
+  color:gray;
+}
+.money
+{
+  border-left-width:2px;
+  border-left-style:solid;
+  border-left-color:rgb(12, 183, 12);
+  border-top-left-radius:2px;
+  border-bottom-left-radius:2px;
+  padding-left:8px;
+  background-color:rgb(225, 248, 225);
+}
+.container2
+{
+  display:block;
+  padding:10px;
+  flex-direction:row;
+  justify-content:start;
+}
+.paid-day
+{
+  flex:1;
+  color:gray;
+  max-width:100px;
+}
+.LOP-Days
+{
+  flex:1;
+  color:gray;
+  max-width:100px;
+}
+
+.sub-container2
+{
+  margin-top:0;
+  margin-bottom:0;
+  display:flex;
+  align-items:center;
+}

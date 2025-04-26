@@ -1,0 +1,61 @@
+.fourth-row
+{ display:flex;
+  margin-top:10px;
+  border-radius:8px;
+  border-style:solid;
+  border-width:1px;
+  border-color:rgb(190, 189, 189);
+  overflow:hidden;
+}
+.left-left
+{
+  flex:1;
+}
+.earn-row
+{
+  display:flex;
+  justify-content:space-between;
+}
+.left-colum
+{
+  display:block;
+  margin:15px;
+}
+.top-col
+{
+  border-bottom-style:dashed;
+  border-bottom-width:1px;
+  border-bottom-color:rgb(190, 189, 189);
+  font-weight:bold;
+}
+.mid-col
+{
+  font-weight:15px;
+}
+.end
+{
+  font-weight:bold;
+}
+.end-col
+{
+  display:block;
+  flex:1;
+  background-color:rgb(234, 234, 234);
+}
+.total-row
+{
+  padding-left:15px;
+  padding-right:15px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.start
+{
+  font-size:normal;
+}
+.total-end
+{
+  font-family:'Ubuntu',arial;
+  font-weight:bold;
+}

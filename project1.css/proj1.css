@@ -1,0 +1,64 @@
+.first-row
+{
+  
+  display:flex;
+  height:50px;
+  padding:10px;
+  align-items:center;
+  justify-content:center;
+  column-gap:10px;
+  border-bottom-width:1px;
+  border-bottom-style:solid; 
+  border-bottom-color:rgb(200, 198, 198);
+}
+.logo
+{
+  width:50px;
+  height:50px;
+}
+.logo-sec
+{
+  display: flex;
+  justify-content:center;
+}
+.midsec
+{
+  display:block;
+  flex:1;
+}
+p
+{
+  margin-top:0;
+  margin-bottom:0;
+  font-family:'Ubuntu',arial;
+  font-size:13px;
+}
+.company-name
+{
+  font-weight:bold;
+  font-size:18px;
+  margin-top:0;
+}
+.company-locatin
+{
+  margin-top:0;
+  color:gray;
+}
+.rightsec
+{
+  width:130px;
+  display:block;
+  align-items:center;
+  justify-content:end;
+}
+.topic
+{
+  color:gray;
+}
+.date
+{
+  font-family:arial;
+  font-weight:bold;
+  display:flex;
+  justify-content:end;
+}
