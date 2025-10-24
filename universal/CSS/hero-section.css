@@ -1,0 +1,177 @@
+.hero-menu
+{
+    display:flex;
+    flex-direction:row;
+    padding-top:20px;
+    padding-bottom:20px;
+    justify-content:space-between;
+    padding-left:20px;
+    padding-right:20px;
+}
+.hero-content
+{
+    font-size:18px;
+    font-weight:300;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    column-gap:20px;
+}
+.no-style-link {
+    text-decoration: none; 
+    color: inherit;         
+  }
+.no-style-link:hover 
+  {
+    text-decoration: none;
+    color: inherit;
+    border-bottom:3px solid red;
+  }
+
+.products-but
+{
+    border:none;
+    background-color:white;
+    font-size:18px;
+    font-weight:500px;
+    border-bottom:3px solid white;
+}
+.products-but:hover
+{
+    border-bottom:3px solid red;
+}
+
+/*products hover 
+/* Container for Products + Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* The dropdown menu */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* directly below the button */
+    left: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    min-width: 160px;
+    z-index: 100;
+  }
+  
+  /* Links inside dropdown */
+  .dropdown-menu a {
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show dropdown on hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+
+  /*hero image*/
+
+  .hero-page
+  {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding:0px;
+    position: relative;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    display:block;
+    height:810px;
+    background-color:rgb(243, 237, 179);
+    overflow:hidden;
+  }
+  .hero-image
+  {
+    padding:0px;
+    filter: brightness(50%); 
+    width: 100%;
+    max-height:600px;
+  }
+  .hero-line
+  {
+    position: absolute;
+    top:30%;
+    left:50%;
+
+    row-gap:20px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width:500px;
+    padding: 20px;
+    border-radius: 8px;
+    display:flex;
+    flex-direction:column;
+    border-left:20px solid rgb(255, 196, 33);
+    border-radius:0px;
+  }
+  .hero-line h1
+  {
+    font-size:50px;
+  }
+  .hero-line p
+  {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+  }
+  
+  
+  
+  .hero-red-box
+  {
+    padding:0px 50px;
+    margin:-400px auto;
+    position:relative;
+    top:300px;
+    max-width:1000px;
+    height:400px;
+    row-gap:20px;
+    height:300px;
+    background-color:rgb(252, 54, 54);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  .hero-red-box h1
+  {
+    font-size:30px;
+    text-align:center;
+  }
+  .hero-red-box p
+  {
+    width:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+  }
+  .Download-broucher
+  {
+    width:150px;
+    height:50px;
+    border:none;
+    border-radius:4px;
+    background-color:white;
+  }
+  .service
+  {
+    
+  }
